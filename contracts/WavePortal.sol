@@ -40,7 +40,6 @@ contract WavePortal {
             lastWavedAt[msg.sender] + 30 seconds < block.timestamp,
             "Wait 15m"
         );
-
         /*
          * Update the current timestamp we have for the user
          */
